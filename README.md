@@ -27,12 +27,29 @@ Agora, para praticar nossa visualização e análise de layout, escolha 4 sites 
 
 #### Alterações sugeridas:
 
-* Booking.com:
-* Amazon: Área 1: Nav Bar
+* Booking.com: Área 1: Filtro Cômodo
+  Alteração sugerida: Inserir a opção de escolha de qual o tipo de acomodação pretendida, além dos filtros de data, local de destino e quantidade de hóspedes.
 
-Alteração sugerida: Modernizar o design da navbar, tornando-a mais compacta e responsiva. Adicionar ícones de categorias em um menu dropdown para otimizar espaço.
-* Netflix:
-* Spotify: 
+  Área 2: Seleção de moeda
+  Alteração sugerida: adição das bandeiras dos países, deixando mais imersiva a identificação das mesmas.
+  
+* Amazon: Área 1: Nav Bar
+  Alteração sugerida: Modernizar o design da navbar, tornando-a mais compacta e responsiva. Adicionar ícones de categorias em um menu dropdown para otimizar espaço.
+
+  Área 2: Carrinho
+  Alteração sugerida: Melhorar a visualização do carrinho, destacando mais o total de itens e o valor final. Tornar o botão de checkout mais chamativo.
+  
+* Netflix: Área 1: Nav Bar
+  Alteração sugerida: Implementar uma barra de pesquisa mais proeminente e reorganizar os links de navegação para dar mais foco na busca.
+
+  Área 2: Catálogo de Filmes
+  Alteração sugerida: Alterar o layout para exibir filmes em uma grade mais compacta, permitindo que o usuário veja mais opções de uma só vez.
+  
+* Spotify: Área 1: Nav Bar
+  Alteração sugerida: Adicionar um atalho de navegação direta para playlists recentes e favoritos, facilitando o acesso.
+
+  Área 2: Player de Música
+  Alteração sugerida: Ampliar os controles do player, adicionando um slider de volume maior e mais visível, além de um botão para letras de músicas.
 
 
 ## FASE 02
