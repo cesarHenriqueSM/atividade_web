@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Moeda</title>
+    <style>
+        .currency-dropdown {
+            position: relative;
+            display: inline-block;
+            width: 250px;
+        }
+
+        .currency-dropdown button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            text-align: left;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+        .currency-dropdown button img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .currency-list {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            max-height: 150px;
+            overflow-y: auto;
+            z-index: 1;
+        }
+
+        .currency-list li {
+            list-style: none;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .currency-list li img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .currency-list li:hover {
+            background-color: #f0f0f0;
+        }
+
+        .currency-dropdown.active .currency-list {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <label for="currency">Escolha sua moeda:</label>
+    <div class="currency-dropdown" id="currencyDropdown">
+        <button id="selectedCurrency">
+            <img src="C:\Material de Estudo\Atividade_Usabilidade_dev_web_mobile_e_jogos_03.10.24\booking.com\usa.png" alt="USA Flag">
+            Dólar Americano (USD)
+        </button>
+        <ul class="currency-list">
+            <li data-value="usd">
+                <img src="C:\Material de Estudo\Atividade_Usabilidade_dev_web_mobile_e_jogos_03.10.24\booking.com\usa.png" alt="USA Flag"> Dólar Americano (USD)
+            </li>
+            <li data-value="eur">
+                <img src="C:\Material de Estudo\Atividade_Usabilidade_dev_web_mobile_e_jogos_03.10.24\booking.com\euro.png" alt="EU Flag"> Euro (EUR)
+            </li>
+            <li data-value="brl">
+                <img src="C:\Material de Estudo\Atividade_Usabilidade_dev_web_mobile_e_jogos_03.10.24\booking.com\brasil.png" alt="Brazil Flag"> Real Brasileiro (BRL)
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        const dropdown = document.getElementById('currencyDropdown');
+        const selectedCurrency = document.getElementById('selectedCurrency');
+        const currencyList = document.querySelector('.currency-list');
+
+        dropdown.addEventListener('click', function () {
+            dropdown.classList.toggle('active');
+        });
+
+        currencyList.addEventListener('click', function (e) {
+            if (e.target.tagName === 'LI' || e.target.closest('li')) {
+                const selectedOption = e.target.closest('li');
+                const imgSrc = selectedOption.querySelector('img').src;
+                const currencyText = selectedOption.textContent;
+                selectedCurrency.innerHTML = `<img src="${imgSrc}" alt="Currency Flag"> ${currencyText}`;
+                dropdown.classList.remove('active');
+            }
+        });
+
+        // Fechar dropdown ao clicar fora
+        window.addEventListener('click', function (e) {
+            if (!dropdown.contains(e.target)) {
+                dropdown.classList.remove('active');
+            }
+        });
+    </script>
+
+</body>
+</html>

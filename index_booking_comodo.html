@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Pesquisa com Tipo de Cômodo</title>
+    <link rel="stylesheet" href="styles_booking_comodo.css">
+</head>
+<body>
+
+    <form class="search-bar">
+        <!-- Destino -->
+        <input type="text" id="destination" name="destination" placeholder="Destino">
+
+        <!-- Datas -->
+        <input type="date" id="checkin" name="checkin" placeholder="Check-in">
+        <input type="date" id="checkout" name="checkout" placeholder="Check-out">
+
+        <!-- Quantidade de pessoas -->
+        <input type="number" id="people" name="people" placeholder="Quantidade de pessoas" min="1" max="10">
+
+        <!-- Tipo de Cômodo -->
+        <select id="room-type" name="room-type">
+            <option value="">Selecione o tipo de cômodo</option>
+            <option value="apartment">Apartamento</option>
+            <option value="resort">Resort</option>
+            <option value="hotel">Hotel</option>
+        </select>
+
+        <!-- Botão de pesquisa -->
+        <button type="submit">Buscar</button>
+    </form>
+
+</body>
+</html>
