@@ -28,12 +28,12 @@ Agora, para praticar nossa visualização e análise de layout, escolha 4 sites 
 Nesta fase, iremos adicionar novos elementos de nosso aprendizado no projeto perfil do aluno. As seguintes novas características deverão ser desenvolvidas ao projeto:
 
 ### Requisitos:
-O layout do projeto deverá ser trabalhado com novas cores e estilos, utilizando um arquivo CSS externo ao código HTML. Escolha uma paleta de cores que lhe seja mais agradável em Color Hex e utilize em seu projeto.
-Organize as seções da melhor forma possível, levando em conta a formatação do texto, fonte utilizada, cor e tamanho da fonte.
-Adicione ao projeto uma foto de perfil.
-Para acessar a Fase 2, consulte o arquivo style.css.
+* O layout do projeto deverá ser trabalhado com novas cores e estilos, utilizando um arquivo CSS externo ao código HTML. Escolha uma paleta de cores que lhe seja mais agradável em Color Hex e utilize em seu projeto.
+* Organize as seções da melhor forma possível, levando em conta a formatação do texto, fonte utilizada, cor e tamanho da fonte.
+* Adicione ao projeto uma foto de perfil.
+
+Para acessar a Fase 2, consulte o arquivo [style.css](,/style.css).
 
 
 ## FASE 02.1
 Com base na atividade 1 - 1, escolha 4 prints para analisar e descreva como poderia ser elaborado o documento CSS que possibilitasse a criação de cada print.
-
