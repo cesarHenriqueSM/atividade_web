@@ -1,0 +1,29 @@
+/* Estilos para o catálogo de filmes da Netflix */
+body {
+    background-color: #141414; /* Cor de fundo da Netflix */
+    color: #ffffff; /* Cor do texto branco */
+    font-family: Arial, sans-serif;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movie-item {
+    background-color: #2C2C2C; /* Fundo escuro dos itens */
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-item:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.5); /* Sombra com cor da marca Netflix */
+}

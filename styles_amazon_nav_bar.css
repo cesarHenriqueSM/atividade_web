@@ -1,0 +1,55 @@
+/* Estilos da Navbar da Amazon */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232F3E; /* Cor de fundo original da Amazon */
+    padding: 10px 20px;
+  }
+
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF9900; /* Cor do logotipo da Amazon */
+  }
+
+  .navbar .categories {
+    position: relative;
+  }
+
+  .navbar .category-btn {
+    background-color: #FF9900;
+    border: none;
+    padding: 10px 15px;
+    color: #232F3E;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .navbar .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    top: 100%;
+    left: 0;
+    width: 150px;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .navbar .dropdown-menu li {
+    padding: 10px;
+    background-color: #fff;
+    color: #232F3E;
+  }
+
+  .navbar .category-btn:hover + .dropdown-menu {
+    display: block;
+  }
+
+  .navbar .dropdown-menu li:hover {
+    background-color: #FF9900;
+    color: #fff;
+  }
