@@ -6,15 +6,15 @@ Nesta fase, iremos construir a primeira página de perfil do usuário utilizando
 
 ### Requisitos a serem atendidos:
 
-* Nome Completo
-* RA
-* Curso e Período Atual
-* Endereço Completo
-* E-mail
-* Foto de Perfil
-* UCs já cursadas
-* Breve descrição de seu perfil pessoal (Hobbies, Família, esportes, etc.)
-* Breve descrição de seu perfil profissional/acadêmico.
+* Nome Completo;
+* RA;
+* Curso e Período Atual;
+* Endereço Completo;
+* E-mail;
+* Foto de Perfil;
+* UCs já cursadas;
+* Breve descrição de seu perfil pessoal (Hobbies, Família, esportes, etc.);
+* Breve descrição de seu perfil profissional/acadêmico;
 * Link para seu LinkedIn e/ou outras redes sociais que queira incluir.
 
 Para acessar a Fase 1, consulte o arquivo [index.html](./index.html).
