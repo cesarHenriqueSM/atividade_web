@@ -23,6 +23,17 @@ Para acessar a Fase 1, consulte o arquivo [index.html](./index.html).
 ## FASE 01 - 1
 Agora, para praticar nossa visualização e análise de layout, escolha 4 sites e, destes sites, escolha 2 áreas distintas. A tarefa será uma análise do conteúdo e da organização deles nos prints que você escolher e, com base nela, sugerir como montaria o HTML dessas páginas.
 
+### Sites escolhidos: [Booking.com](https://www.booking.com/?aid=348858&label=gx1-br-booking-booking-sd-nptd), [Amazon](https://www.amazon.com.br/ref=nav_logo), [Netflix](https://www.netflix.com/br/) e [Spotify](https://open.spotify.com/intl-pt).
+
+#### Alterações sugeridas:
+
+* Booking.com:
+* Amazon: Área 1: Nav Bar
+
+Alteração sugerida: Modernizar o design da navbar, tornando-a mais compacta e responsiva. Adicionar ícones de categorias em um menu dropdown para otimizar espaço.
+* Netflix:
+* Spotify: 
+
 
 ## FASE 02
 Nesta fase, iremos adicionar novos elementos de nosso aprendizado no projeto perfil do aluno. As seguintes novas características deverão ser desenvolvidas ao projeto:
