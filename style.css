@@ -1,0 +1,77 @@
+/* Definindo as cores da paleta Blue Sapphire */
+:root {
+    --blue-sapphire: #006494;
+    --light-blue: #58a4b0;
+    --dark-gray: #1d3557;
+    --white: #fefefe;
+    --dark-green: #0a9396;
+}
+
+/* Estilizando o body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--white);
+    color: var(--dark-gray);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o header */
+header {
+    background-color: var(--blue-sapphire);
+    color: var(--white);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para o título do header */
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Estilizando a seção Sobre Mim */
+#sobre-mim {
+    background-color: var(--light-blue);
+    padding: 50px 0;
+}
+
+#sobre-mim h2 {
+    color: var(--dark-gray);
+    font-size: 1.8rem;
+}
+
+#sobre-mim p {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+}
+
+/* Estilizando imagem de perfil */
+.img-perfil {
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Links para redes sociais */
+.links a {
+    color: var(--dark-green);
+    margin: 0 10px;
+}
+
+.links a:hover {
+    color: var(--blue-sapphire);
+}
+
+/* Estilizando listas de UCs */
+#ucs-cursadas ul, #ucs-cursando ul {
+    background-color: var(--white);
+    border-left: 4px solid var(--blue-sapphire);
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+#ucs-cursadas h2, #ucs-cursando h2 {
+    color: var(--blue-sapphire);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
